@@ -12,7 +12,7 @@ const port = 3000;
 app.use(cors({
   origin: 'https://mohamedsiraj012.github.io',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  credentials: true, // Enable credentials, if needed
+ // Enable credentials, if needed
 }));
 
 app.use(bodyParser.json());
